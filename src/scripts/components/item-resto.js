@@ -7,7 +7,7 @@ class ItemResto extends HTMLElement {
     render() {
         this.innerHTML = `
         <article class="post-item">
-            <img aria-label="ini adalah gambar ${this._resto.name}" class="post-item__thumbnail"
+            <img alt=" ${this._resto.name}" class="post-item__thumbnail"
                     src="${this._resto.pictureId}"
                     alt="Suasana dari ${this._resto.name}">
             <div class="post-item__content">
